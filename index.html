@@ -1,109 +1,172 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <title>Rawintosh</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
-<body>
-  <nav>
-    <div class="navbar">
-      <div class="logo"><a href="#">Rawintosh</a></div>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">YouTube</a></li>
-        <li><a href="#">Why Rawintosh</a></li>
-        <li><a href="#">Discord</a></li>
-        <li><a href="#">Guilded</a></li>
-      </ul>
-      <div class="appearance">
-        <div class="light-dark">
-          <i class="btn fas fa-moon" data-color="#e4e6eb #e4e6eb #24292D #24292D #242526"></i>
-        </div>
-        <div class="color-icon">
-          <div class="icons">
-            <i class="fas fa-palette"></i>
-            <i class="fas fa-sort-down arrow"></i>
-          </div>
-          <div class="color-box">
-            <h3>Color Switcher</h3>
-            <div class="color-switchers">
-              <button class="btn blue active" data-color="#fff #24292d #4070f4 #0b3cc1 #F0F8FF"></button>
-              <button class="btn orange" data-color="#fff #242526 #F79F1F #DD8808 #fef5e6"></button>
-              <button class="btn purple" data-color="#fff #242526 #8e44ad #783993 #eadaf1"></button>
-              <button class="btn green" data-color="#fff #242526 #3A9943 #2A6F31 #DAF1DC"></button>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Happy Bot!</title>
+    <meta name="description" content="Happy Bot!">
+    <meta name="theme-color" content="#f54254">
+    <link rel="icon" type="image/png" sizes="300x250" href="https://cdn.discordapp.com/attachments/908044000425021461/909187984669155378/standard.gif">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background-color: var(--background);">
+    <div id="top" style="height: 12px;">
+        <nav class="navbar navbar-light navbar-expand fixed-top" style="color: var(--main-color);border-top-width: 6px;border-top-style: solid;background: var(--background);">
+            <div class="container-fluid"><a class="navbar-brand" href="#" style="color: var(--main-color);font-family: 'Alfa Slab One', cursive;">Happy Bot</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item"><a class="nav-link active smoothScroll" href="#feature" style="color: var(--text-color);">Features</a></li>
+                        <li class="nav-item"><a class="nav-link smoothScroll" href="#commands" style="color: var(--text-color);">Commands</a></li>
+                        <li class="nav-item"><a class="nav-link smoothScroll" style="color: var(--text-color);" href="javascript:pop()">Invite</a></li>
+
+
+                          </a>
             </div>
-          </div>
+    </div>
+    </nav>
+    </div>
+    <header class="d-xl-flex flex-column justify-content-xl-center align-items-xl-center" style="height: 418px;text-align: center;margin: 55px;"><img class="rounded" src="https://cdn.discordapp.com/attachments/908044000425021461/909187984669155378/standard.gif" width="150" height="150" style="margin-top: 30px;">
+        <h1 class="d-xl-flex justify-content-xl-start" style="color: var(--text-color);">Happy Bot</h1>
+        <p style="color: var(--secondary-text-color);">a Simple and Usefull bot!</p>
+        <div class="tada animated"><div role="group" class="btn-group"><button class="btn btn-primary smoothScroll shadow-none" role="button" style="margin: 5px;background-color: var(--main-color);border-color: var(--main-color);border-radius: 10px;" onclick=pop()>Invite me</button>
+	
+	<a class="btn btn-primary smoothScroll shadow-none" role="button" style="margin: 5px;background-color: var(--main-color);border-color: var(--main-color);border-radius: 10px;"
+        href="#feature">Features</a></div></div>
+    </header>
+    <div id="feature" style="height: 90px;background: var(--secondary);"><div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="var(--background)" fill-opacity="1" d="M0,96L40,112C80,128,160,160,240,144C320,128,400,64,480,48C560,32,640,64,720,69.3C800,75,880,53,960,58.7C1040,64,1120,96,1200,96C1280,96,1360,64,1400,48L1440,32L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg></div></div>
+    <div class="features-boxed" style="background: var(--secondary);">
+        <div class="container" style="color: var(--main-color);">
+            <div class="intro">
+                <h2 class="text-center" style="color: var(--text-color);">Bot Features</h2>
+            </div>
+            <div class="row justify-content-center features">
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div id="features" class="box" style="/*border-radius: 34px;*/"><i class="fa fa-bolt icon" style="color: var(--main-color);"></i>
+                        <h3 class="name">Fast</h3>
+                        <p class="description" style="color: var(--secondary-text-color);">The bot is fast and good We are looking to change the host to get more ping.<br></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div id="features" class="box"><i class="fa fa-lock icon" style="color: var(--main-color);"></i>
+                        <h3 class="name">Secure</h3>
+                        <p class="description" style="color: var(--secondary-text-color);">The bot is Secure.<br></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div id="features" class="box"><i class="fa fa-smile-o icon" style="color: var(--main-color);"></i>
+                        <h3 class="name">Commands</h3>
+                        <p class="description" style="color: var(--secondary-text-color);">Users Will be  happy When the Bot going to have a lot of commands.<br></p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div></div>
+    </div>
+    <div style="background-color: var(--background);"><div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-41.53,-9.56 C167.83,173.98 302.14,-60.89 534.09,89.10 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: var(--secondary);"></path></svg></div></div>
+    <div id="commands">
+        <section>
+            <div class="container-fluid text-white">
+                <center>
+                    <h1>Counter (soon) : </h1>
+                </center>
+                <div class="row row-cols-3 justify-content-center" style="color: var(--secondary-text-color);">
+                    <div class="col-auto col-md-6 col-lg-4 text-center pb-5 pt-5 number-item love_counter">
+                        <h1>-</h1>
+                        <h4 style="color: var(--main-color);margin-top: -6px;">Total Servers</h4>
+                    </div>
+                    <div class="col-auto col-lg-4 text-center align-self-center pb-5 pt-5 love_counter">
+                        <h1>-<h1>
+                        <h4 style="color: var(--main-color);margin-top: -6px;">Total Users</h4>
+                    </div>
+                </div>
+            </div>
+        </section><div class="container">
+  <h2>All Commands</h2>
+  <div class="accordion">
+         
+    <! --- If you want more just copy the following code from here -- >
+          <div class="accordion-item">
+      <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">General Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>
+         <br> Ping - Get the bot ping! (+ping) <br> Invite - Get the bot invite! (+invite)<br> About -  About me! (+about) </p><br>
       </div>
     </div>
-  </nav>
-
-  <section class="home-content">
-    <div class="texts">
-      <h2 class="text">Customize Your Website </h2>
-      <h3 class="text">With a <span>Beautiful Colours...</span></h3>
-      <p>Lorem ipsum dolor sited and ametvel, nobised, minimali! Quibusdam temporibus, placeate reessed veritatis optio aliquam illum debitis at, perspiciatis consequatur iure vel, quae ratione. Praesentium, at.</p>
-      <div class="button">
-      <a href="#">Explore Me
-      <i class="fas fa-location-arrow"></i></a>
+    <! --- to here :D -- >
+    <! --- If you want more just copy the following code from here -- >
+          <div class="accordion-item">
+            <! --- to here :D -- >
+            <div class="accordion-item">
+        <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Images Commands</span><span class="icon" aria-hidden="true"></span></button>
+        <div class="accordion-content">
+          <p>Dog - Get a random dog image! +dog ! <br> Cat - Get a random Cat image! +cat<br> Minecraft - Generate a minecraft image (+minecraft <text>) </br> 
+          </p>
+        </div>              
+      <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Moderation Commands</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>Ban - Ban a Member!  +ban <Member><br>Deletewebhook - Delete a Webhook! +deletewebhook <webhook-url> <br> 
+      </div>
     </div>
-  </section>
 
-  <script>
-  // Js code to make color box enable or disable
-  let colorIcons = document.querySelector(".color-icon"),
-  icons = document.querySelector(".color-icon .icons");
+    </div>
+    <div class="accordion-item">
+        <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Utility Commands</span><span class="icon" aria-hidden="true"></span></button>
+        <div class="accordion-content">
+          <p>
+           <br>Embed - Generate a Embed! (+embed)
+           <br>Say - Say something! (+say <text>)
+           <br>Poll - Make a poll! (+poll <text>)
+           <br>Gen - Generate A random Nitro gift link! (+gen)
+           <br>Webhook - Send a message with a webhook url! (+webhook <url> <message>)
+           <br>Ascii - Generate a ascii art! (+ascii <text>) <br>Invite - Get the bot invite! (+invite)<br> About -  About me! (+about) </p><br>
+	  <br>button - Generate a Message with a Button! (+button <text>) <br>crewebhook - Create a webhook (Admins only)! (+crewebhook)<br> About -  About me! (+about) </p><br>
+        </div>
 
-  icons.addEventListener("click" , ()=>{
-    colorIcons.classList.toggle("open");
-  })
+  </div>
+  <div class="accordion-item">
+    <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Info  Commands</span><span class="icon" aria-hidden="true"></span></button>
+    <div class="accordion-content">
+      <p>
+        Userinfo - Get info of a user! (+userinfo <user>)
+            <br>
+        avatar - Get the avatar of someone! (+avatar <user>)
+            <br>
+        userid - Get a user discord id! (+userid <user>)
+            <br>
+        channelid -  Get the current channel id! (+channelid <channel>)
+            <br>
+        serverinfo - Get The Current server info! (+serverinfo)
+        <br>
+        botinfo - Get the bot info! (+botinfo)
+        <br>
+        membercounts - Get the curretn server members count! (+memberscount)
+    </div>
 
-  // getting all .btn elements
-  let buttons = document.querySelectorAll(".btn");
 
-  for (var button of buttons) {
-    button.addEventListener("click", (e)=>{ //adding click event to each button
-      let target = e.target;
-
-      let open = document.querySelector(".open");
-      if(open) open.classList.remove("open");
-
-      document.querySelector(".active").classList.remove("active");
-      target.classList.add("active");
-
-      // js code to switch colors (also day night mode)
-      let root = document.querySelector(":root");
-      let dataColor = target.getAttribute("data-color"); //getting data-color values of clicked button
-      let color = dataColor.split(" "); //splitting each color from space and make them array
-
-      //passing particular value to a particular root variable
-      root.style.setProperty("--white", color[0]);
-      root.style.setProperty("--black", color[1]);
-      root.style.setProperty("--nav-main", color[2]);
-      root.style.setProperty("--switchers-main", color[3]);
-      root.style.setProperty("--light-bg", color[4]);
-
-      let iconName = target.className.split(" ")[2]; //getting the class name of icon
-
-      let coloText = document.querySelector(".home-content span");
-
-      if(target.classList.contains("fa-moon")){ //if icon name is moon
-        target.classList.replace(iconName, "fa-sun") //replace it with the sun
-        colorIcons.style.display = "none";
-        coloText.classList.add("darkMode");
-      }else if (target.classList.contains("fa-sun")) { //if icon name is sun
-        target.classList.replace("fa-sun", "fa-moon"); //replace it with the sun
-        colorIcons.style.display = "block";
-        coloText.classList.remove("darkMode");
-        document.querySelector(".btn.blue").click();
-      }
-    });
-  }
- </script>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="var(--secondary)" fill-opacity="1" d="M0,160L48,154.7C96,149,192,139,288,154.7C384,171,480,213,576,218.7C672,224,768,192,864,181.3C960,171,1056,181,1152,192C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    <div class="footer-dark" style="background: var(--secondary);padding-top: 0px;padding-bottom: 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col item social"><a class="smoothScroll" href="#top"><i class="icon ion-android-arrow-up"></i></a></div>
+            </div>
+            <p class="copyright" style="color: var(--text-color);">Happy Bot © 2021</p>
+            <p class="copyright" style="color: var(--text-color);padding: 0px;">
+                <!--Consider leaving this to give credit to me for making this, I worked hard on it and it makes me feel good :D-->Theme by&nbsp;<a href="https://itshoozi.com" style="color: var(--main-color);">itsHoozi</a></p>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Counting.js"></script>
+    <script src="assets/js/untitled.js"></script>
+    <script src="popup.js"></script>
 </body>
-</html>
 
+</html>
