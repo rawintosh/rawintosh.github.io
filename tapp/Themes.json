@@ -1,0 +1,19 @@
+{
+    "sizeComment": "The first percentage is the width, the second percentage is the height",
+    "ThemeList": {
+        "1": {
+            "color": "black",
+            "size": ["15px", "20px"],
+            "bought": true,
+            "key": 0,
+            "free": true
+        },
+        "2": {
+            "color": "red",
+            "size": ["20px", "15px"],
+            "bought": true,
+            "key": 0,
+            "free": true
+        }
+    }
+}
